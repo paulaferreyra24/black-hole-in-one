@@ -27,7 +27,7 @@ skill and not a guess.
 
 ## Epic 2 — Physics
 
-### US-03 Gravity — `todo`
+### US-03 Gravity — `done`
 
 As a player, I want planets to pull the ball, so that I can curve shots around them.
 
@@ -35,7 +35,7 @@ As a player, I want planets to pull the ball, so that I can curve shots around t
 - AC2: The black hole also attracts the ball.
 - AC3: The simulation is deterministic: the same shot from the same position always ends the same way.
 
-### US-04 Landing on planets — `todo`
+### US-04 Landing on planets — `done`
 
 As a player, I want the ball to bounce on planets and come to rest, so that I can shoot again from there.
 
