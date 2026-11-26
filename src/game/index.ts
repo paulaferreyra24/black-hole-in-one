@@ -5,3 +5,4 @@ export * from "./preview";
 export * from "./scoring";
 export * from "./session";
 export * from "./shot";
+export * from "./progress";

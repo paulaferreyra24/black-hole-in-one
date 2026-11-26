@@ -1,22 +1,23 @@
 # User stories
 
 Status: `todo` · `doing` · `done`. Each story lists acceptance criteria (AC) that are
-checked in the browser and, where they are rules, in unit tests.
+checked in the browser and, where they are rules, in unit tests. A story is `done` only
+after the browser check (CLAUDE.md §7); `doing` with green tests means that check is pending.
 
 ## Epic 1 — Shooting
 
-### US-01 Aim and shoot — `todo`
+### US-01 Aim and shoot — `done`
 
 As a player, I want to pull back from the ball and release, so that I can shoot with the
 power and direction I choose.
 
-- AC1: Pressing on or near the ball and dragging shows the shot direction (opposite to the drag) and its power.
+- AC1: Pressing anywhere and dragging shows the shot direction (opposite to the drag) and its power. Anywhere, not only on the ball, so a finger never hides what it aims.
 - AC2: Power grows with drag distance up to a maximum; dragging further does not add power.
 - AC3: Releasing launches the ball and adds one stroke.
 - AC4: A drag shorter than a minimum distance cancels the shot and adds no stroke.
 - AC5: Works with mouse and with touch.
 
-### US-02 Trajectory preview — `todo`
+### US-02 Trajectory preview — `done`
 
 As a player, I want to see where the first part of my shot will go, so that aiming is a
 skill and not a guess.
@@ -43,7 +44,7 @@ As a player, I want the ball to bounce on planets and come to rest, so that I ca
 - AC2: It bounces, losing energy on each bounce, and slides with friction.
 - AC3: When it is almost still, it stops and the next shot can be taken from there.
 
-### US-05 Lost balls — `todo`
+### US-05 Lost balls — `doing`
 
 As a player, I want a lost ball to come back, so that one bad shot does not end the level.
 
@@ -53,7 +54,7 @@ As a player, I want a lost ball to come back, so that one bad shot does not end 
 
 ## Epic 3 — Goal and scoring
 
-### US-06 Sinking the ball — `todo`
+### US-06 Sinking the ball — `doing`
 
 As a player, I want the black hole to swallow the ball, so that I finish the level.
 
@@ -61,7 +62,7 @@ As a player, I want the black hole to swallow the ball, so that I finish the lev
 - AC2: The ball spirals in with an animation before the result appears.
 - AC3: The result shows strokes, par and stars.
 
-### US-07 Par and stars — `todo`
+### US-07 Par and stars — `doing`
 
 As a player, I want a score that rewards good play, so that I want to replay levels.
 
@@ -70,7 +71,7 @@ As a player, I want a score that rewards good play, so that I want to replay lev
 
 ## Epic 4 — Levels and navigation
 
-### US-08 Level select — `todo`
+### US-08 Level select — `doing`
 
 As a player, I want to choose a level, so that I can replay or continue.
 
@@ -78,11 +79,11 @@ As a player, I want to choose a level, so that I can replay or continue.
 - AC2: A level unlocks when the previous one is completed.
 - AC3: From a finished level I can retry or go to the next one.
 
-### US-09 Ten levels — `todo`
+### US-09 Ten levels — `doing`
 
 As a player, I want levels that teach and then challenge, so that the game has a curve.
 
-- AC1: Level 1 needs no gravity trick; later levels introduce orbits, slingshots and moving obstacles one idea at a time.
+- AC1: Level 1 needs no gravity trick; later levels introduce obstacles, curved shots, heavy wells, gaps and slingshots one idea at a time.
 - AC2: Every level is solvable, proven by an automated test that finds a shot sequence within par.
 
 ## Backlog (1.1)
