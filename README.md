@@ -7,11 +7,11 @@ gravity, and sink the ball into a black hole — in as few strokes as you can.
 
 ## How to play
 
-- Press near the ball, drag back and release — like a slingshot. The further you drag, the harder the shot.
+- Press anywhere, drag back and release — like a slingshot. The further you drag, the harder the shot.
 - The dotted line shows where the first part of your shot will go.
 - The ball rests where it lands. Shoot again from there.
 - Lost a ball in space? It comes back, with a one-stroke penalty.
-- Beat par for three stars.
+- Beat par for three stars. `R` restarts, `Esc` goes back to the levels.
 
 ## What's inside
 
