@@ -7,7 +7,7 @@
 export const DT = 1 / 120;
 
 /** Gravitational constant. Surface pull of a planet = G · mass / radius². */
-export const G = 1000;
+export const G = 1600;
 
 /** Softening length: keeps gravity finite near an attractor's centre. */
 export const SOFTENING = 12;
@@ -27,7 +27,7 @@ export const REST_SPEED = 30;
 export const REST_TIME = 0.2;
 
 /** Speed of a shot at full power. Also the tunnelling guard (see ADR-0002). */
-export const MAX_SHOT_SPEED = 820;
+export const MAX_SHOT_SPEED = 640;
 
 /** A ball further than this outside the world is lost. */
 export const OUT_OF_BOUNDS_MARGIN = 220;
